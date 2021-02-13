@@ -1,2 +1,2 @@
 # codeWorksAssignment
-Simple chat application for bootcamp application
+Simple chat app for bootcamp application

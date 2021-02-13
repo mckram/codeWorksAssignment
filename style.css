@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Garamond;
+  color: #483D8B;
+  text-align: center;
+  background: linear-gradient(to right, #4568dc, #b06ab3);
+}
+
+.grid {
+  display: grid;
+  grid-template: 1fr 8fr 1fr / 2fr 3fr 2fr;
+  width: 100vw;
+  height: 100vh;
+  align-items: stretch;
+}
+
+.top {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-column: 1 / span 3;
+  padding: 1%;
+  border-style: solid;
+  border-width: medium;
+  border-color: white;
+  border-radius: 25px;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+.convo {
+  border-style: solid;
+  border-width: thin;
+  border-color:white;
+  border-radius: 25px;
+  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+  margin: 10px auto;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background-color: #F8F8FF;
+
+}
+
+.input {
+  grid-row: 3 / span 1;
+  grid-column: 2/ span 1;
+  padding: 3%;
+}
+
+.sent {
+  text-align: right;
+}
+
+.received {
+  text-align: left;
+}
+
+.message {
+  border-radius: 5px;
+  padding: 5px;
+  display: inline-block;
+  text-align:justify;
+  max-width: 80%;
+}
+
+.time {
+  font-size: small;
+  display: block;
+  padding: 5px;
+}
+
+.received .message {
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+.sent .message {
+   background-color: #CDC8E5
+
+}
+
+.fill {
+  flex-grow: 1;
+}
+
+input[type=text], button {
+  background-color: #CDC8E5;
+  padding: 6px;
+  border-radius: 5px;
+  border-width: thin;
+  border-color: white;
+}
+
+input[type=text] {
+  width: 60%;
+  font-style: Verdana;
+}
+
+::placeholder {
+  font-style: Verdana;
+  color: #483D8B;
+}

@@ -59,7 +59,6 @@ function randReact(){
     "What\'s the worst haircut you\'ve ever had?",
     "What would be the title of your autobiography?",
     "What\'s your favourite time of day? I personally love dusk, it\'s just so...dusky.",
-    "I love studying history, it\'s cool to see how Humanity continuouesly repeats the same mistakes. What subjects are you interested in?",
     "What did you major in? I studied business. Not to be negative, but it was the worst. Subject. Ever.",
     "Have you ever owned any pets? If not, I highly recommend getting a guinea pig, they\'re adorable!",
     "Have musical genres do you like? I\'m a big fan of jazz!"
